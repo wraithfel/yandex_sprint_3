@@ -1,0 +1,32 @@
+.lead__caption {
+    line-height: 14px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    margin: 8px 0 0 calc((100vw - 984px) / 2);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__caption {
+        margin: 8px 0 0 calc((100vw - 928px) / 2);
+    }
+} 
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        margin: 8px 0 0 calc((100vw - 720px) / 2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin: 8px 0 0 calc((100vw - 550px) / 2);
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    .lead__caption {
+        margin: 8px 0 0 calc((100vw - 288px) / 2);
+    }
+}
